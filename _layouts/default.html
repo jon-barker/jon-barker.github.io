@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+      body {
+        max-width: 700px;
+        margin: auto;
+        font-family: sans-serif;
+        line-height: 1.6;
+        padding: 2em;
+      }
+      header {
+        margin-bottom: 2em;
+      }
+      nav {
+        margin-top: 3em;
+      }
+    </style>
   </head>
   <body>
+    <header>
+      <h1>{{ page.title }}</h1>
+      <p><a href="{{ '/' | relative_url }}">← Back to home</a></p>
+    </header>
+
     <main>
       {{ content }}
     </main>
