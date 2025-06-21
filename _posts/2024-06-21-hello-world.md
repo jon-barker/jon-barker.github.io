@@ -1,6 +1,3 @@
-<details>
-<summary>Example Post with Math</summary>
-
 ---
 layout: post
 title: "Hello World"
@@ -15,5 +12,3 @@ And here’s a block equation:
 $$
 \int_0^1 x^2 \, dx = \frac{1}{3}
 $$
-
-</details>
