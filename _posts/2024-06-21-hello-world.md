@@ -8,7 +8,7 @@ title: "Hello World"
 
 This is my first post.
 
-Here’s an inline equation: $E = mc^2$
+Here’s an inline equation: \( E = mc^2 \)
 
 And here’s a block equation:
 
